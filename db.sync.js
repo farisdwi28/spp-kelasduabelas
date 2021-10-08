@@ -7,5 +7,3 @@ const model = require('./modules/sequelize/models/index.js')
 model.sequelize.sync({
     force: true
 });
-
-//will not be able to drop database after loading it correctly
