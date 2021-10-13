@@ -1,6 +1,6 @@
 
 
-const model = require('./modules/sequelize/models/index.js')
+const model = require('./sequelize/models/index')
 
 //sync the model to the database, make sure all configuration is correct
 
